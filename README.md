@@ -21,9 +21,6 @@ Deep learning-based SOP prediction model for cooperative communication networks
 입력 변수로는 사용자 수, 릴레이 수, 송신 전력, 릴레이 전력, 목표 보안 전송률, 거리 정보 등을 사용하였고 출력값으로 SOP를 예측하도록 딥러닝 모델을 학습하였다.
 
 ## 사용 기술
-- Python
-- NumPy
-- pandas
 - MATLAB
 - MATLAB Deep Learning Toolbox
 - Statistics and Machine Learning Toolbox
