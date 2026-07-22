@@ -26,6 +26,7 @@ Deep learning-based SOP prediction model for cooperative communication networks
 - pandas
 - MATLAB
 - MATLAB Deep Learning Toolbox
+- Statistics and Machine Learning Toolbox
 - Monte Carlo Simulation
 
 ## 모델 구조
