@@ -36,3 +36,22 @@ Deep learning-based SOP prediction model for cooperative communication networks
 
 ## 프로젝트 상태
 기본 모델 구현 및 실험 완료
+
+## 데이터셋 생성
+SOP 예측 모델 학습을 위해 MATLAB 기반 Monte Carlo 시뮬레이션을 데이터셋을 생성하였다.
+각 데이터 샘플은 무작위로 설정된 시스템 파라미터를 기반으로 구성하였다.
+
+- Source 수
+- Relay 수
+- Source 송신 전력
+- Relay 송신 전력
+- Source-Relay 거리
+- Source-Eavesdropper 거리
+- Relay-Destination 거리
+- Relay-Eavesdropper 거리
+- 보안 임계값
+- SOP 값
+
+생성된 데이터셋의 마지막 열은 SOP 정답값이며, 나머지 열은 DNN 모델의 입력 변수로 사용하였다.
+
+데이터셋 생성 코드는 'dataset.m' 파일에 구현하였다.
