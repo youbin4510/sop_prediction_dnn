@@ -79,3 +79,11 @@ SOP 값은 작은 범위에 몰릴 수 있기 때문에 학습 과정에서는 '
 또한 실제 SOP 값과 예측 SOP 값을 산점도로 시각화하여 모델의 예측 경향을 확인하였다.
 
 모델 학습 코드는 'sop_predict_model.m' 파일에 구현하였다.
+
+## 실험 결과
+테스트 데이터에 대해 모델 성능을 평가한 결과는 다음과 같다.
+- Test MSE: 0.000146
+- Test MAE: 0.008146
+
+또한 실제 SOP 값과 예측 SOP 값을 비교한 산점도를 통해 예측값이 실제값과 유사한 경향을 보이는 것을 확인하였다.
+<img width="1233" height="823" alt="image" src="https://github.com/user-attachments/assets/723eedc3-4b90-4c24-b853-c217a846e00f" />
